@@ -1,0 +1,17 @@
+{
+  "name": "job-scraper",
+  "version": "1.0.0",
+  "description": "Automated job scraper for Director+ roles",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "John G",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.3.1"
+  }
+}
